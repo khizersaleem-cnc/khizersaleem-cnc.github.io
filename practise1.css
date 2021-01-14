@@ -1,0 +1,199 @@
+body,html{
+    margin:auto;
+    background-color: rgb(185, 191, 191);
+    width: 100%;
+}
+section{
+  margin: auto;
+  position: relative;
+  top:50px;
+  width: 850px;
+  height: 836px;
+  background-color: white;
+  border:  gray;
+  box-shadow: 1px 1px 10px 1px gray ;   
+}
+
+
+img{
+    position: relative;
+    left: 280px;
+    top: 30px;
+    width: 300px;
+    height: 190px;
+}
+
+h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+    text-align: center;
+}
+
+#txt{
+    text-align: center;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+.form-progress{
+    width: 700px;
+    margin:20px;
+}
+
+#form-progress-nav{
+    display: inline-block;
+    width:20px; 
+    height:20px; 
+    /* background-color:#e8edf3;  */
+    color:rgb(128, 119, 119);
+    border-radius: 15px;
+    margin-left:10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+ 
+.step{
+  opacity: 0.5;
+  border: none;
+  background-color:#e8edf3;
+
+}
+.step.active{
+  opacity: 1;
+  background-color:rgb(64, 64, 194);
+}
+
+/* .step.finish{
+  background-color: yellowgreen;
+} */
+
+ #form-progress-btn{
+        position: relative; 
+        top:3px;
+        left:7px;
+        color: black;
+}
+    
+    /* #form-progress-btn:active{
+        color: white;
+    }
+     */
+    button{
+        width:120px;
+        height: 20px;
+        position: relative;
+        bottom: 18px;
+        left: 13px;
+        border:none;
+        cursor: pointer;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: gray;  
+    }
+    
+    button:active{
+        color: black;
+    }
+
+    *:focus{
+        outline: none;
+    }
+
+     
+  input[type="radio"]{
+    margin: 0px 5px;
+    outline: none;
+  }
+  
+  input[type="radio"]:checked{
+    background-color: black;
+    visibility: visible;
+    content: '';
+  }
+  input[type="text"]{
+    width: 170px;
+    height: 35px;
+  }
+  
+  input[type="button"]{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(63, 63, 211);
+    color: white;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  #regForm {
+  margin: 0;
+  padding: 0 ;
+  width: 70%;
+  min-width: 300px;
+}
+
+      .tab {
+        display: none;
+        padding: 10px 50px;
+        text-align: justify;
+        width: 500px;
+        font-size: 14px;
+      }
+  
+      .numbertext {
+        color: black;
+        font-size: 12px;
+        padding: 8px 12px;
+        text-align: right;
+      }
+
+      label{
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        font-size: 15px;
+      }
+
+      input[type="text"]{
+        width: 450px;
+      }
+
+    input[type="text"]:hover{
+      border: 1px solid;
+      border-color: rgb(207, 207, 24);
+    }
+
+    select{
+      width: 400px;
+      height: 35px;
+    }
+
+    select:focus{
+      border: 1px solid;
+      border-color: rgb(207, 207, 24);
+    }
+
+    input[type="date"]{
+      width:250px ;
+      height: 35px;
+    }
+
+    input[type="date"]:hover{
+      border: 1px solid;
+      border-color: rgb(207, 207, 24);
+    }
+
+    input[type="number"],[type="email"]{
+      width:450px ;
+      height: 35px;
+    }
+
+    input[type="number"]:hover{
+      border: 1px solid;
+      border-color: rgb(207, 207, 24);
+    }
+
+    input[type="email"]:hover{
+      border: 1px solid;
+      border-color: rgb(207, 207, 24);
+    }
